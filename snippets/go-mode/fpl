@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fpl
+# key: fpl
+# --
+fmt.Println(${1:value})
