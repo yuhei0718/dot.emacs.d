@@ -3,3 +3,4 @@ el-get/*
 elpa/*
 *.elc
 ac-comphist.dat
+var
