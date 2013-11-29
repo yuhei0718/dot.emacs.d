@@ -12,3 +12,6 @@
 
 ;; hg project
 (ap:add-project :name 'hg :look-for '(".hg"))
+
+
+(define-key global-map (kbd "C-S-f") 'anything-project-grep)
