@@ -20,7 +20,7 @@
         '(el-get
           anything
           anything-project
-          anything-c-moccur
+;          anything-c-moccur
 ;          auto-save-buffers-enhanced
 ;          cperl-mode
 ;          perl-completion
