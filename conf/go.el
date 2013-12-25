@@ -20,6 +20,14 @@
                  "*go output*")
 )
 
+(defun run-go-file-with-args (word)
+  (interactive (list
+                (read-string "Args: "
+                             "input.txt")))
+  (shell-command (concat "go run " (buffer-file-name) " " word ))
+  "*go output*")
+
+
 ;; keybinds
 (add-hook 'go-mode-hook
           '(lambda()
@@ -30,4 +38,5 @@
              (local-set-key (kbd "C-c a") 'go-import-add)
              (local-set-key (kbd "C-c d") 'godoc)
              (local-set-key (kbd "M-s-l") 'gofmt)
+             (local-set-key (kbd "C-S-<f10>") 'run-go-file-with-args)
              (local-set-key (kbd "S-<f10>") 'run-go-file)))
