@@ -27,6 +27,7 @@
 (global-set-key (kbd "<C-s-up>")    'windmove-up)
 (global-set-key (kbd "<C-s-right>") 'windmove-right)
 
-
-
 (require 'gist)
+
+
+(require 'ag)

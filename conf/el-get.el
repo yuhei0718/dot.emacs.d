@@ -41,6 +41,7 @@
           expand-region
           yasnippet
           gist
+          ag
           ))
 
 ;; (if (eq system-type 'darwin)
