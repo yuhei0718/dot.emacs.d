@@ -42,6 +42,12 @@
           yasnippet
           gist
           ag
+          helm
+          helm-ag
+          helm-descbinds
+          helm-migemo
+          helm-project
+          migemo
           ))
 
 ;; (if (eq system-type 'darwin)

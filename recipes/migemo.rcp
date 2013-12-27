@@ -1,0 +1,4 @@
+(:name migemo
+       :description "migemo"
+       :type github
+       :pkgname "emacs-jp/migemo")

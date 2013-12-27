@@ -11,10 +11,12 @@
 ;                 "cc-mode.el"
 ;                 "clang-complete.el"
                  "go.el"
+                 "helm.el"
                  "flymake.el"
                  "midnight.el"
 ;                 "blosxom.el"
                  "misc.el"
+                 "migemo.el"
                  )))
   (progn
     (dolist (conf conf-list)

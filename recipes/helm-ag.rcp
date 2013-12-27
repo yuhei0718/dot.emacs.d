@@ -1,0 +1,6 @@
+(:name helm-ag
+       :description "helm-ag"
+       :type github
+       :pkgname "syohex/emacs-helm-ag"
+       :features helm-ag
+       :depends (helm)))

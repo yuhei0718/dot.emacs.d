@@ -6,7 +6,7 @@
  ;; 候補がおおいときに体感速度を早く
  anything-quick-update t)
 
-(define-key global-map (kbd "C-:") 'anything-filelist+)
+;(define-key global-map (kbd "C-:") 'anything-filelist+)
 (define-key global-map (kbd "C-M-:") 'anything-resume)
 (define-key global-map (kbd "C-x C-b") 'anything-for-buffers)
 
