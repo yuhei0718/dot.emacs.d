@@ -48,6 +48,8 @@
           helm-migemo
           helm-project
           migemo
+          rst-mode
+          tuareg-mode
           ))
 
 ;; (if (eq system-type 'darwin)

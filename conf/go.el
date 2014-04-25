@@ -12,6 +12,7 @@
 (add-hook 'go-mode-hook 'go-eldoc-setup)
 
 ;; gofmt
+(setq gofmt-command "goimports")
 (add-hook 'before-save-hook 'gofmt-before-save)
 
 (defun run-go-file()
