@@ -52,7 +52,11 @@
 (setq-default transient-mark-mode t)
 
 ;; utf-8優先
+(set-language-environment 'Japanese)
 (prefer-coding-system 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+
 
 ;; 一行ずつスクロール
 (setq scroll-step 1)
