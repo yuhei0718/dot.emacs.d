@@ -1,9 +1,9 @@
 (require 'helm-config)
 
 ;http://d.hatena.ne.jp/tomoya/20130519/1368942603
-(define-key global-map (kbd "C-:") 'helm-for-files)
+(define-key global-map (kbd "C-]") 'helm-for-files)
 (define-key global-map (kbd "M-y") 'helm-show-kill-ring)
-(define-key global-map (kbd "C-M-:") 'helm-resume)
+(define-key global-map (kbd "C-M-]") 'helm-resume)
 
 
 ;http://shibayu36.hatenablog.com/entry/2013/10/19/191958

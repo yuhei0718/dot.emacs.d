@@ -10,5 +10,19 @@
   (migemo-init)
 )
 
-(setq migemo-command "/usr/local/bin/cmigemo")
-(setq migemo-dictionary "/usr/local/share/migemo/utf-8/migemo-dict")
+
+(defvar darwin-p (eq system-type 'darwin))
+(defvar linux-p (eq system-type 'gnu/linux))
+
+(when darwin-p
+    (progn
+      (setq migemo-command "/usr/local/bin/cmigemo")
+      (setq migemo-dictionary "/usr/local/share/migemo/utf-8/migemo-dict")
+      )
+  )
+(when linux-p
+  (progn
+    (setq migemo-command "cmigemo")
+    (setq migemo-dictionary "/usr/share/cmigemo/utf-8/migemo-dict")
+    )
+  )

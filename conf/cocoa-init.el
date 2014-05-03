@@ -9,8 +9,8 @@
 (scroll-bar-mode 0)
 
 ;; metaキーを入れ替える
-(setq ns-command-modifier (quote meta)) 
-(setq ns-alternate-modifier (quote super))
+;(setq ns-command-modifier (quote meta)) 
+;(setq ns-alternate-modifier (quote super))
 
 ;; full screen toggle
 (setq ns-use-native-fullscreen nil)
